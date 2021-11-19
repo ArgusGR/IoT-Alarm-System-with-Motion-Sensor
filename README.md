@@ -1,2 +1,1 @@
 # IoT-AlarmSensor
-Eisai malakas
