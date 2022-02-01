@@ -1,0 +1,20 @@
+______________________________________________
+
+#Alarm System with Motion Sensor Task 1
+______________________________________________
+
+cd swarmlab-hybrid
+./update-agent.sh
+sudo apt install wireguard
+./install.sh
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo systemctl status docker
+./start.sh
+docker exec -it dummy_service /bin/sh
+cd /swarmlab-hybrid/src-local/instance/poc-datacollector/tools
+./poc-dummy-create task1
+./poc-dummy-send task1 "Hello World"
+./poc-dummy-log task1
+
+Στο http://localhost:3088/ παμε στα instances στο webclient και παταμε το search button.
