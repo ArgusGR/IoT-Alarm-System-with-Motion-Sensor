@@ -1,4 +1,4 @@
-# IoT-AlarmSensor
+# IoT-Alarm System with Motion Sensor
 ## About this project:
 
 This is a group project for Internet of Things (IoT) of University of West Attica, about making a Motion Activated Alarm System.
