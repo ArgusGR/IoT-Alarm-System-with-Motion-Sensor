@@ -8,10 +8,11 @@ The purpose of this project is to create a fully functional smart alarm system a
 ## Hardware:
 
 #### • NodeMcu Lua CH340G ESP8266 WIFI
-#### • Arduino HC-SR501 Human Body Pyroelectric Infrared Pir
+#### • HC-SR501 Infrared PIR module
+#### • Breadboard
 #### • 9V Battery Connector
-#### • Resistors
-#### • LEDs
+#### • 9V DC Battery Power 2wire
 #### • USB cable
-#### • Male to Male Dupont cable
-#### • 400 holes Breadboard
+#### • LEDs
+#### • Resistors
+#### • Jumpers
